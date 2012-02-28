@@ -1,10 +1,10 @@
-{ "name" : "protobuf-for-node",
+{ "name" : "protobuf_for_node",
   "version" : "0.0.1",
   "description" : "Protocol Buffers for NodeJS",
   "author": {
     "Matthias Ernst": "mernst@google.com"
   },
-  "main": "./build/default/protobuf-for-node",
+  "main": "./build/Release/protobuf_for_node",
   "repository": {
     "type": "git",
     "url": "git://github.com/algometrics/protobuf-for-node.git"
