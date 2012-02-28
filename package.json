@@ -10,6 +10,7 @@
     "url": "git://github.com/algometrics/protobuf-for-node.git"
   },
   "scripts": { 
-    "install": "PROTOBUF=/usr/local NODE_PATH=/usr/local/lib/node node-waf configure clean build install"
+    "install": "PROTOBUF=/usr/local NODE_PATH=/usr/local/lib/node node-waf configure clean build install",
+    "uninstall": "node-waf uninstall"
   }
 }
