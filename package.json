@@ -1,0 +1,15 @@
+{ "name" : "protobuf-for-node",
+  "version" : "0.0.1",
+  "description" : "Protocol Buffers for NodeJS",
+  "author": {
+    "Matthias Ernst": "mernst@google.com"
+  },
+  "main": "./build/default/protobuf_for_node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/algometrics/protobuf-for-node.git"
+  },
+  "scripts": { 
+    "install": "PROTOBUF=/usr/local/lib node-waf configure clean build" 
+  }
+}
