@@ -4,7 +4,7 @@
   "author": {
     "Matthias Ernst": "mernst@google.com"
   },
-  "main": "./build/default/protobuf_for_node",
+  "main": "./build/default/protobuf-for-node",
   "repository": {
     "type": "git",
     "url": "git://github.com/algometrics/protobuf-for-node.git"
