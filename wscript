@@ -14,6 +14,8 @@
 
 import os
 import Options
+from os import unlink, link
+from os.path import exists
 
 srcdir = '.'
 blddir = 'build'
