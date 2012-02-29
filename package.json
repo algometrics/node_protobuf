@@ -1,16 +1,15 @@
-{ "name" : "protobuf_for_node",
+{ "name" : "protobuf",
   "version" : "0.0.1",
   "description" : "Protocol Buffers for NodeJS",
   "author": {
     "Matthias Ernst": "mernst@google.com"
   },
-  "main": "./build/Release/protobuf_for_node",
+  "main": "./protobuf",
   "repository": {
     "type": "git",
     "url": "git://github.com/algometrics/protobuf-for-node.git"
   },
-  "scripts": { 
-    "install": "PROTOBUF=/usr/local NODE_PATH=/usr/local/lib/node node-waf configure clean build install",
-    "uninstall": "node-waf uninstall"
+  "scripts": {
+    "install": "PROTOBUF=/usr/local node-waf configure clean build"
   }
 }
