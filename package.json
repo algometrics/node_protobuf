@@ -7,7 +7,7 @@
   "main": "./protobuf",
   "repository": {
     "type": "git",
-    "url": "git://github.com/algometrics/protobuf-for-node.git"
+    "url": "git://github.com/algometrics/node_protobuf.git"
   },
   "scripts": {
     "install": "PROTOBUF=/usr/local node-waf configure clean build"
